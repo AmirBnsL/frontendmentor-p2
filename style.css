@@ -18,7 +18,7 @@ body {font-family:'hanken',sans-serif;
 }
 
 
-
+/*all-container contains both of the summary(white bloc) and result(blue bloc)*/
 .all-container {
     display:flex;
     width:700px;
@@ -166,11 +166,41 @@ span {
     color:black;
 }
 
-@media (width<600px) {
+@media (width<375px) {
     .all-container {
+        border-radius: 0;
         flex-direction: column;
+        height: 100vh;
+    
+    }
+    body {
+        margin:0;
 
     }
+    .summary {
+        box-shadow: 0 0 0 black;
 
+    }
+    .result-title {
+        margin-top: 2rem;
+        font-size:1.8rem;
+    }
+    .circle {
+        display: flex;
+        height: 7rem;
+        width: 7rem;
+        padding: 3.5rem;
+        padding: auto;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .big-number {
+        font-size: 6rem;
+        
+    }
+    .result {
+        border-radius: 0 0 25px 25px;
+    }
     
 }
