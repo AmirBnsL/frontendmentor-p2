@@ -4,7 +4,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ## Table of contents
 
-- [Overview](#overview)
+- [Overview](#overview) 
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
