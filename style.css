@@ -23,7 +23,6 @@ body {font-family:'hanken',sans-serif;
     display:flex;
     width:700px;
     height: 500px;
-    margin: 0 auto;
     justify-content: center;
     border-radius: 15px;
     overflow:hidden;
@@ -173,6 +172,7 @@ span {
         border-radius: 0;
         flex-direction: column;
         height: 100vh;
+        padding:0;
     
     }
     body {
