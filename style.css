@@ -173,6 +173,8 @@ span {
         border-radius: 0;
         flex-direction: column;
         height: 100vh;
+        padding:0;
+    
     
     }
     body {
